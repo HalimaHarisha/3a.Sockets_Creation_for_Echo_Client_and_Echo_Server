@@ -11,7 +11,7 @@ Sockets Links.
 ## PROGRAM
 ## client 
 ~~~
-CLIENT:
+
 import socket
 
 HOST = '127.0.0.1'
@@ -29,7 +29,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 ## server
 
 ~~~
-SERVER:
+
 import socket
 
 HOST = '127.0.0.1'
